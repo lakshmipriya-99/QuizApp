@@ -1,0 +1,76 @@
+/*index.css*/
+/* style forroot container */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+
+
+/* style for each question */
+p {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+
+
+.sub {
+  /* align-items: center; */
+  color: white;
+  background-color: purple;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 49%;
+}
+
+
+.pre {
+  color: white;
+  background-color: purple;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: auto; /* Align to left */
+}
+
+.next {
+  color: white;
+  background-color: purple;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: auto; /* Align to right */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
